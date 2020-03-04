@@ -1,4 +1,5 @@
 *node_modules/*
+#/dist
 node_modules/.bin/esvalidate.ps1
 node_modules/.bin/acorn
 node_modules/.bin/acorn.cmd
