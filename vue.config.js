@@ -1,4 +1,6 @@
 // vue.config.js
 module.exports = {
-    publicPath: '/vue-trivia/'
-    }
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/vue-trivia/'
+      : '/'
+  }
